@@ -44,7 +44,7 @@ args = {
 
 args = SimpleNamespace(**args)
 
-stocks = ["btc-usd", "eth-usd", "sol-usd", "aapl", "msft", "nvda"] 
+stocks = ["btc-usd"] 
 
 trainset = Stock(stocks=stocks, window=WINDOW, train=True, test_year=2024)
 trainloader = DataLoader(trainset, batch_size=BATCH_SIZE, shuffle=True)
