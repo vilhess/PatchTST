@@ -7,8 +7,8 @@ import torch.nn.functional as F
 import numpy as np
 
 #from collections import OrderedDict
-from model.layers import *
-from model.revin import RevIN
+from model.patchtst.layers import *
+from model.patchtst.revin import RevIN
 
 # Cell
 class PatchTST_backbone(nn.Module):
