@@ -1,4 +1,4 @@
-# Implementation of PatchTST for Multiple Stock Market Prediction  
+# Implementation of PatchTST for multiple sinusoidal waves at different frequencies
 
 This repository  implements the **PatchTST** model for predicting a multivariate signal consisting of multiple sinusoidal waves at different frequencies. PatchTST, as introduced in [PatchTST: A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730), leverages patch-based tokenization for effective time-series forecasting.  
 
